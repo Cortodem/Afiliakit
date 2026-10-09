@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <meta name="description" content="" />
+    <link rel="canonical" />
+    <meta property="og:type" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta name="twitter:card" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script defer src="assets/js/app.js"></script>
+    <script defer src="assets/js/cookies.js"></script>
+  </head>
+  <body>
+    <script type="application/ld+json" id="structured-data"></script>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" data-site-brand></a>
+        <nav class="main-nav" aria-label="Navegación principal">
+          <a href="index.html">Inicio</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="legal-body">
+      <div id="site-state" class="state container" role="status" aria-live="polite" hidden></div>
+
+      <section id="category-header" class="container category-layout" hidden>
+        <div class="category-feature">
+          <img id="category-image" alt="" loading="lazy" />
+        </div>
+        <div class="category-copy">
+          <p class="eyebrow" id="category-name"></p>
+          <h1 id="category-title"></h1>
+          <p id="category-description"></p>
+        </div>
+      </section>
+
+      <!-- T6 (R1, R9): zona del texto largo de la categoría. Nace oculta y vacía: el contenido
+           llega desde textos/categorias/<slug>.md y solo se pinta si el texto es válido (R2, R3),
+           de modo que una categoría sin texto no deja aquí ni un hueco ni un bloque con margen.
+           El orden de la vista es cabecera de config → texto con fichas → listado completo. -->
+      <section id="category-text" class="section container" hidden></section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow" data-site-products-eyebrow></p>
+            <h2 data-site-products-title></h2>
+          </div>
+          <div
+            id="category-state"
+            class="state"
+            data-state-for="category-products"
+            role="status"
+            aria-live="polite"
+            hidden
+          ></div>
+          <div id="category-products" class="product-grid"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p data-site-footer-line></p>
+        <div class="footer-links">
+          <a href="avisos-legales.html">Avisos legales</a>
+          <a href="politica-privacidad.html">Privacidad</a>
+          <a href="politica-cookies.html">Cookies</a>
+          <a href="#" data-open-preferences>Preferencias</a>
+          <a data-site-contact-link></a>
+        </div>
+      </div>
+    </footer>
+
+    <div id="cookie-banner" class="cookie-banner hidden" aria-live="polite">
+      <div class="container cookie-inner">
+        <p data-site-cookie-text></p>
+        <div class="cookie-actions">
+          <button
+            type="button"
+            class="button button-secondary"
+            data-cookie-action="reject"
+            data-site-cookie-reject
+          ></button>
+          <button
+            type="button"
+            class="button button-primary"
+            data-cookie-action="accept"
+            data-site-cookie-accept
+          ></button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

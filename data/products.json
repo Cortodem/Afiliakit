@@ -1,0 +1,98 @@
+[
+  {
+    "id": "seo-suite",
+    "name": "SEO Suite Pro",
+    "slug": "seo-suite-pro",
+    "category": "marketing-digital",
+    "price": 49,
+    "currency": "EUR",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80",
+    "affiliateUrl": "https://example.com/afiliado/seo-suite-pro",
+    "shortDescription": "Optimiza contenido y mejora tus rankings con análisis avanzados.",
+    "badge": "Top seller"
+  },
+  {
+    "id": "taskflow",
+    "name": "TaskFlow AI",
+    "slug": "taskflow-ai",
+    "category": "productividad",
+    "price": 39,
+    "currency": "EUR",
+    "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=900&q=80",
+    "affiliateUrl": "https://example.com/afiliado/taskflow-ai",
+    "shortDescription": "Automatiza tareas repetitivas y organiza mejor tu trabajo diario.",
+    "badge": "Más popular"
+  },
+  {
+    "id": "crm-boost",
+    "name": "CRM Boost",
+    "slug": "crm-boost",
+    "category": "saas",
+    "price": 59,
+    "currency": "EUR",
+    "image": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=900&q=80",
+    "affiliateUrl": "https://example.com/afiliado/crm-boost",
+    "shortDescription": "Centraliza clientes, automatiza seguimientos y aumenta conversiones.",
+    "badge": "Recomendado"
+  },
+  {
+    "id": "email-arc",
+    "name": "Email Arc",
+    "slug": "email-arc",
+    "category": "marketing-digital",
+    "price": 29,
+    "currency": "EUR",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
+    "affiliateUrl": "https://example.com/afiliado/email-arc",
+    "shortDescription": "Campañas inteligentes para captar, nutrir y convertir leads.",
+    "badge": "Editor choice"
+  },
+  {
+    "id": "focus-pilot",
+    "name": "Focus Pilot",
+    "slug": "focus-pilot",
+    "category": "productividad",
+    "price": 34,
+    "currency": "EUR",
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80",
+    "affiliateUrl": "https://example.com/afiliado/focus-pilot",
+    "shortDescription": "Planifica, prioriza y termina tareas con mayor claridad.",
+    "badge": "Nuevo"
+  },
+  {
+    "id": "analytics-hub",
+    "name": "Analytics Hub",
+    "slug": "analytics-hub",
+    "category": "saas",
+    "price": 69,
+    "currency": "EUR",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80",
+    "affiliateUrl": "https://example.com/afiliado/analytics-hub",
+    "shortDescription": "Paneles inteligentes para medir resultados y optimizar inversiones.",
+    "badge": "Premium"
+  },
+  {
+    "id": "flowdesk-suite",
+    "name": "FlowDesk Suite",
+    "slug": "flowdesk-suite",
+    "category": "destacados",
+    "price": 57,
+    "currency": "EUR",
+    "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=900&q=80",
+    "affiliateUrl": "https://example.com/afiliado/flowdesk-suite",
+    "shortDescription": "Unifica soporte, ventas y automatizaciones en un solo espacio de trabajo.",
+    "badge": "Elección del equipo"
+  },
+  {
+    "id": "pulseboard-pro",
+    "name": "Pulseboard Pro",
+    "slug": "pulseboard-pro",
+    "category": "destacados",
+    "price": 79,
+    "currency": "EUR",
+    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=80",
+    "affiliateUrl": "https://example.com/afiliado/pulseboard-pro",
+    "shortDescription": "Paneles en vivo y alertas inteligentes para vigilar tus métricas clave en tiempo real.",
+    "badge": "Nuevo"
+  }
+]

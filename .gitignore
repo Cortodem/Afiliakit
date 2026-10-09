@@ -1,0 +1,19 @@
+# Private AI-assisted development workflow
+AGENTS.md
+MEMORY.md
+.agents/
+.opencode/
+opencode.json
+skills-lock.json
+
+# Internal specifications and project constitution
+specs/
+docs/constitution.md
+
+# Local editor settings and generated files
+.vscode/
+.git/
+node_modules/
+**/node_modules/
+.DS_Store
+Thumbs.db

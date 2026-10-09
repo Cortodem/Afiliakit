@@ -1,0 +1,91 @@
+{
+  "site": {
+    "name": "Afiliakit",
+    "tagline": "Productos recomendados para crecer tu negocio",
+    "defaultCategory": "marketing-digital",
+    "baseUrl": "https://www.tusitio.com",
+    "contactEmail": "contacto@tusitio.com"
+  },
+  "theme": {
+    "primary": "#6d5efc",
+    "secondary": "#20c997",
+    "accent": "#f6b73c",
+    "bg": "#0b1020",
+    "surface": "#121b2d",
+    "surfaceAlt": "#1a2740",
+    "text": "#edf3ff",
+    "muted": "#aab9d1",
+    "border": "rgba(255,255,255,0.12)"
+  },
+  "telemetry": {
+    "id": "G-XXXXXXXXXX",
+    "provider": "gtag",
+    "consentKey": "afiliakit_cookie_consent"
+  },
+  "globalTexts": {
+    "ctaPrimary": "Ver oferta",
+    "ctaSecondary": "Más información",
+    "heroTitle": "Descubre herramientas que ayudan a vender mejor",
+    "heroText": "Plantilla modular para páginas de afiliados con estructura optimizada para SEO, rendimiento y conversión.",
+    "heroPrimaryCta": "Ver categorías",
+    "heroSecondaryCta": "Explorar ofertas",
+    "heroCardPill": "+32% CTR",
+    "heroCardTitle": "Plantilla lista para nichos",
+    "heroCardPoints": [
+      "Configuración global en un solo archivo",
+      "Productos externos y reutilizables",
+      "SEO y consentimientos integrados"
+    ],
+    "footerLine": "© 2026 Afiliakit. Todos los derechos reservados.",
+    "featuredEyebrow": "Destacados",
+    "featuredTitle": "Una selección corta, renovada de forma continua",
+    "productsEyebrow": "Productos",
+    "productsTitle": "Recomendaciones para esta categoría",
+    "loadingTitle": "Cargando contenido",
+    "loadingText": "Estamos obteniendo los datos del sitio. Esto suele tardar solo un momento.",
+    "emptyTitle": "Todavía no hay productos aquí",
+    "emptyText": "Esta categoría aún no tiene recomendaciones. Prueba con otra de las disponibles.",
+    "emptyAction": "Ver todas las categorías",
+    "errorTitle": "No hemos podido cargar el contenido",
+    "errorText": "Ha ocurrido un problema al obtener los datos del sitio. Puedes volver a intentarlo.",
+    "errorAction": "Reintentar",
+    "unavailableTitle": "Contenido no disponible",
+    "unavailableText": "No hay categorías configuradas en este momento.",
+    "cookieBannerText": "Utilizamos cookies para medir el tráfico y mejorar la experiencia. Puedes aceptar o rechazar antes de activar la telemetría.",
+    "cookieAccept": "Aceptar",
+    "cookieReject": "Rechazar",
+    "cookiePreferences": "Preferencias de cookies",
+    "externalLinkNotice": "abre en una pestaña nueva",
+    "contactLabel": "Contacto"
+  },
+  "categories": [
+    {
+      "slug": "marketing-digital",
+      "name": "Marketing Digital",
+      "title": "Estrategias para escalar tu presencia online",
+      "description": "Encuentra soluciones de automatización, SEO, redes sociales y funnels que mejoran la conversión y reducen el trabajo manual.",
+      "featuredImage": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "slug": "productividad",
+      "name": "Productividad",
+      "title": "Herramientas para ahorrar tiempo cada día",
+      "description": "Software pensado para gestionar tareas, automatizar procesos y aumentar la productividad personal o del equipo.",
+      "featuredImage": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "slug": "saas",
+      "name": "SaaS",
+      "title": "Soluciones SaaS para crecer con menos fricción",
+      "description": "Descubre plataformas SaaS con alta demanda, soporte y beneficios para convertir visitas en clientes con mejores ratios.",
+      "featuredImage": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "slug": "destacados",
+      "name": "Destacados",
+      "title": "Las herramientas que más recomendamos ahora mismo",
+      "description": "Una selección corta de las soluciones que mejor funcionan para nuestro público, renovada de forma continua.",
+      "featuredImage": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=80"
+    }
+  ]
+}
